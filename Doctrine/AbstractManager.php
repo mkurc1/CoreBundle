@@ -1,6 +1,6 @@
 <?php
 
-namespace App\CoreBundle\Doctrine;
+namespace CoreBundle\Doctrine;
 
 use Doctrine\Common\Persistence\ObjectManager;
 use Doctrine\Common\Persistence\ObjectRepository;
