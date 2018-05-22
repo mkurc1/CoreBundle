@@ -9,6 +9,11 @@
             "email": "mkurc1@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "CoreBundle\\": ""
+        }
+    },
     "require": {
         "php": ">=7.2"
     }
