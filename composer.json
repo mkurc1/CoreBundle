@@ -1,0 +1,15 @@
+{
+    "name": "mkurc1/core-bundle",
+    "description": "Core Bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michał Kurcewicz",
+            "email": "mkurc1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    }
+}
