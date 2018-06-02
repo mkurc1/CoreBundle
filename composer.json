@@ -16,6 +16,6 @@
     },
     "require": {
         "php": ">=7.2",
-        "require stof/doctrine-extensions-bundle": "^2.4"
+        "require stof/doctrine-extensions-bundle": "^1.3"
     }
 }
