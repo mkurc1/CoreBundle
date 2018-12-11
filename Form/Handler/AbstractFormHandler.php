@@ -51,9 +51,9 @@ abstract class AbstractFormHandler
         return $this->request->isMethod(Request::METHOD_POST);
     }
 
-    public function buildForm(string $type, object $data): void
+    public function buildForm(string $type, object $data, array $options = []): void
     {
-        $this->form = $this->formFactory->create($type, $data);
+        $this->form = $this->formFactory->create($type, $data, $options);
     }
 
     public function createView(): FormView
